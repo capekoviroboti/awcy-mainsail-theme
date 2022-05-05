@@ -1,0 +1,21 @@
+:root {
+    --Primary:        #ed8323;
+    --Secondary:      #808080;
+    --Green:          #28c550;
+    --Red:            #d82525;
+    --Warnings:       #bf891d;
+    --Text:           #f2f2f2;
+    --DarkerText:     #e0e0e0;
+    --Background:     #282828;
+    --DarkBackground: #121212;
+    --Toolbars:       #282828;
+    --Sheets:         #121212;
+}
+.v-application {
+    --v-primary-base: var(--Primary) !important;
+    --v-anchor-base:  var(--Primary) !important;
+    --v-error-base:   var(--Red) !important;
+    --v-success-base: var(--Green) !important;
+    --v-warning-base: var(--Warnings) !important;
+    --v-panel-base:   var(--DarkBackground) !important;
+}
